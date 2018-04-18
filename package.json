@@ -1,0 +1,8 @@
+{
+  "name": "list-todos",
+  "version": "0.0.0",
+  "repository": "https://github.com/blakek/list-todos.git",
+  "author": "Blake Knight <bknight@gsandf.com> (http://blakek.me/)",
+  "license": "MIT",
+  "bin": "list-todos"
+}

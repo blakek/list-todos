@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -eu -o pipefail
+
+###
+# list-todos: Lists code marks like "TODO:" found in a project 
+###
+
+git grep --break --heading -nwEI '(WIP|TODO|FIXME|HACK|XXX|NOTE):'
+
